@@ -13,7 +13,7 @@ import plugintools
 import xbmc,xbmcaddon
 from addon.common.addon import Addon
 
-addonID = 'plugin.video.RPRMBrazuka'
+addonID = 'plugin.video.musicbrazuka'
 addon = Addon(addonID, sys.argv)
 local = xbmcaddon.Addon(id=addonID)
 #icon = local.getAddonInfo('icon')
@@ -73,9 +73,9 @@ def run():
 
 # Menu Principal
 def main_list(params):
-	plugintools.log("RPRMBrazuka.main_list "+repr(params))
+	plugintools.log("musicbrazuka.main_list "+repr(params))
 	
-	plugintools.log("RPRMBrazuka.run")
+	plugintools.log("musicbrazuka.run")
 	
 	#plugintools.direct_play(str(entryurl))
 

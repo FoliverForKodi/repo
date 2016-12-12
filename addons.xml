@@ -15,7 +15,7 @@
 	</extension>
 </addon>
 
-<addon id="plugin.video.RPRMBrazuka" version="1.0.0" name="[B][COLOR green]ROCK/POP/REGGAE/MPB[/B][/COLOR]" provider-name="FOLIVER FOR KODI">
+<addon id="plugin.video.musicbrazuka" version="1.0.0" name="[B][COLOR green]ROCK/POP/REGGAE/MPB[/B][/COLOR]" provider-name="FOLIVER FOR KODI">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
     <import addon="script.module.addon.common" version="2.0.0"/>
