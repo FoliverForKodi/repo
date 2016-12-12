@@ -12,7 +12,7 @@
 	
   <extension point="xbmc.addon.metadata">
     <summary lang="en">Race Crash</summary>
-    <description lang="en">Esse addon contem videos acidentes automotores em competições </description>
+    <description lang="en">Esse addon contem videos acidentes automotores em competicoes </description>
     <platform>all</platform>
     <forum></forum>
     <website></website>

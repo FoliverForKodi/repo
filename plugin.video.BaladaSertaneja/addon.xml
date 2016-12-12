@@ -12,7 +12,7 @@
 	
   <extension point="xbmc.addon.metadata">
     <summary lang="en">Balada Sertaneja</summary>
-    <description lang="en">Esse addon contem videos de músicas sertanejas ! ! </description>
+    <description lang="en">Esse addon contem videos de musicas sertanejas ! ! </description>
     <platform>all</platform>
     <forum></forum>
     <website></website>
