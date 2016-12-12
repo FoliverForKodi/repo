@@ -12,14 +12,14 @@ import ntpath
 
 
 USER_AGENT = 'Mozilla/5.0 (Windows; U; Windows NT 5.1; en-GB; rv:1.9.0.3) Gecko/2008092417 Firefox/3.0.3'
-base='foliver wizard'
+base='foliver builds'
 ADDON=xbmcaddon.Addon(id='plugin.program.foliver')
     
     
 VERSION = "1.0.1"
 
 
-PATH = "foliver wizard"            
+PATH = "foliver builds"            
 
 dp           =  xbmcgui.DialogProgress()
 dialog       =  xbmcgui.Dialog()
@@ -49,7 +49,7 @@ def OPEN_URL(url):
 def wizard(name,url,description):
     path = xbmc.translatePath(os.path.join('special://home/addons','packages'))
     dp = xbmcgui.DialogProgress()
-    dp.create("foliver wizard","Wizard is downloading now ",'', 'Put the kettle on')
+    dp.create("foliver builds","builds is downloading now ",'', 'Put the kettle on')
     lib=os.path.join(path, name+'.zip')
     try:
        os.remove(lib)
@@ -250,7 +250,7 @@ def killxbmc():
 
 def FRESHSTART(params):
 
-    choice2 = xbmcgui.Dialog().yesno("Are you sure?", 'Are you sure you want to wipe this install?', '', 'All addons EXCLUDING foliver wizard will be completely wiped!', yeslabel='Yes',nolabel='No')
+    choice2 = xbmcgui.Dialog().yesno("Are you sure?", 'Are you sure you want to wipe this install?', '', 'All addons EXCLUDING foliver builds will be completely wiped!', yeslabel='Yes',nolabel='No')
     if choice2 == 0:
         return
     elif choice2 == 1:
