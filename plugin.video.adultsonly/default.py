@@ -2,7 +2,7 @@
 # code by Avigdor (https://github.com/cubicle-vdo/xbmc-israel)
 import urllib, sys, xbmcplugin ,xbmcgui, xbmcaddon, xbmc, os, json
 
-AddonID = 'plugin.video.aonly'
+AddonID = 'plugin.video.adultsonly'
 Addon = xbmcaddon.Addon(AddonID)
 AddonName = Addon.getAddonInfo("name")
 icon = Addon.getAddonInfo('icon')
@@ -13,7 +13,7 @@ libDir = os.path.join(addonDir, 'resources', 'lib')
 sys.path.insert(0, libDir)
 import common
 
-addon_data_dir = os.path.join(xbmc.translatePath("special://home/addons/plugin.video.aonly/data" ).decode("utf-8"), AddonID)
+addon_data_dir = os.path.join(xbmc.translatePath("special://home/addons/plugin.video.adultsonly/data" ).decode("utf-8"), AddonID)
 if not os.path.exists(addon_data_dir):
 	os.makedirs(addon_data_dir)
 	
