@@ -1,0 +1,92 @@
+[
+    {
+        "url": "http://pastebin.com/raw/W4G2Wd1j", 
+        "logos": "", 
+        "image": "special://home/addons/plugin.video.aonly/capas/hd.jpg", 
+        "name": "HD VIDEOS"
+    }, 
+    {
+        "url": "http://pastebin.com/raw/VuiwFh7P", 
+        "logos": "", 
+        "image": "special://home/addons/plugin.video.aonly/capas/pas.jpg", 
+        "name": "Passion-HD"
+    }, 
+	{
+        "url": "http://pastebin.com/raw/ckkk4QV5", 
+        "logos": "", 
+        "image": "special://home/addons/plugin.video.aonly/capas/pros.jpg", 
+        "name": "PornPros"
+    }, 
+    {
+        "url": "http://pastebin.com/raw/b3Mp0WL3", 
+        "logos": "", 
+        "image": "special://home/addons/plugin.video.aonly/capas/pure.jpg", 
+        "name": "PureMature"
+    }, 
+    {
+        "url": "http://pastebin.com/raw/A7wt5GNt", 
+        "logos": "", 
+        "image": "special://home/addons/plugin.video.aonly/capas/exo.jpg", 
+        "name": "Exotic4K"
+    }, 
+    {
+        "url": "http://bit.ly/f2012_foliver", 
+        "logos": "", 
+        "image": "special://home/addons/plugin.video.aonly/capas/tiny.jpg", 
+        "name": "Tiny4K"
+    }, 
+    {
+        "url": "http://bit.ly/f2011_foliver", 
+        "logos": "", 
+        "image": "special://home/addons/plugin.video.aonly/capas/fant.jpg", 
+        "name": "FantasyHD"
+    }, 
+    {
+        "url": "http://bit.ly/f2010_foliver", 
+        "logos": "", 
+        "image": "special://home/addons/plugin.video.aonly/capas/cast.jpg", 
+        "name": " Castingcouch-X"
+    }, 
+    {
+        "url": "http://bit.ly/f2009a2000_foliver", 
+        "logos": "", 
+        "image": "special://home/addons/plugin.video.aonly/capas/pov.jpg", 
+        "name": "POVD"
+    }, 
+    {
+        "url": "http://bit.ly/f1999a1990_foliver", 
+        "logos": "", 
+        "image": "special://home/addons/plugin.video.aonly/capas/nubi.jpg", 
+        "name": "Nubile"
+    }, 
+    {
+        "url": "http://bit.ly/f1989a1980_foliver", 
+        "logos": "", 
+        "image": "special://home/addons/plugin.video.aonly/capas/any.jpg", 
+        "name": "Anysex"
+    }, 
+    {
+        "url": "http://bit.ly/f1979a1951_foliver", 
+        "logos": "", 
+        "image": ""special://home/addons/plugin.video.aonly/capas/babe.jpg"", 
+        "name": "Babes"
+    }, 
+    {
+        "url": "http://bit.ly/fordemalfa_foliver", 
+        "logos": "", 
+        "image": ""special://home/addons/plugin.video.aonly/capas/ru.jpg"", 
+        "name": "RuPorn"
+    }, 
+    {
+        "url": "http://bit.ly/fcrackle_foliver", 
+        "logos": "", 
+        "image": ""special://home/addons/plugin.video.aonly/capas/pornv.jpg"", 
+        "name": "Pornos"
+    }, 
+    {
+        "url": "http://bit.ly/fcinebr_foliver", 
+        "logos": "", 
+        "image": "special://home/addons/plugin.video.brfilmes/capas/cinebr.png", 
+        "name": "Cine BR"
+    }
+]
