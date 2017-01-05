@@ -1,6 +1,6 @@
 import urllib, urllib2, os, io, xbmc, xbmcaddon, xbmcgui, json, re
 
-AddonID = 'plugin.video.aonly'
+AddonID = 'plugin.video.adultsonly'
 Addon = xbmcaddon.Addon(AddonID)
 icon = Addon.getAddonInfo('icon')
 AddonName = Addon.getAddonInfo("name")
