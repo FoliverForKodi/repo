@@ -6,7 +6,7 @@
         "name": "Lancamentos Dublados"
     }, 
     {
-        "url": "http://pastebin.com/raw/L9SPPiD1, 
+        "url": "http://pastebin.com/raw/L9SPPiD1", 
         "logos": "", 
         "image": "special://home/addons/plugin.video.brfilmes/capas/leg.png", 
         "name": "Legendados"
