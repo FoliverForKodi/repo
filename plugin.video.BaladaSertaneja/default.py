@@ -19,7 +19,7 @@ local = xbmcaddon.Addon(id=addonID)
 #icon = local.getAddonInfo('icon')
 icon = local.getAddonInfo('icon')
 icon2 = "http://brenocds.net/wp-content/uploads/2014/09/Top-Sertanejo-2014.jpg"
-icon3 = "https://4.bp.blogspot.com/-4tCp8Zu1cb4/Vx4GUkDXQ8I/AAAAAAAAJtw/SCNWqefx528_LqJULoTTsEOT_cLos-3fACLcB/s1600/1.jpg"
+icon3 = "https://yt3.ggpht.com/-AIuD4fUE--I/AAAAAAAAAAI/AAAAAAAAAAA/PoYUFnQFjpM/s900-c-k-no-mo-rj-c0xffffff/photo.jpg"
 icon4 = "https://yt3.ggpht.com/-L0Evw6cY0U8/AAAAAAAAAAI/AAAAAAAAAAA/qzub6Pczbag/s900-c-k-no-mo-rj-c0xffffff/photo.jpg"
 icon5 = "https://3.bp.blogspot.com/-HfP219fw5M8/VvVJIq6qKBI/AAAAAAAAI5c/doel_IpyG5ouKjPoyP_c2woQXFK-_yQfQ/s1600/Mulheres%2BDo%2BSertanejo%2B2016%2B-%2BXANDAO%2BDOWNLOAD.jpg"
 icon6 = "https://i.ytimg.com/vi/NoZ7EsVoNF0/sddefault.jpg"
@@ -35,7 +35,7 @@ addonfolder = local.getAddonInfo('path')
 resfolder = addonfolder + '/resources/'
 entryurl=resfolder+"entrada.mp4"
 YOUTUBE_CHANNEL_ID = "playlist/PLcsMX-TwGym5L6xT0lq-GINS1Td4lV9EZ"
-YOUTUBE_CHANNEL_ID2 = "playlist/PLpc4Ek6CmNFVZX68_BAcYOPrq-9jiIEgd"
+YOUTUBE_CHANNEL_ID2 = "playlist/PLnHx97mX3_eQTjQzyaZGow0fddTNrE0MY"
 YOUTUBE_CHANNEL_ID3 = "playlist/PLpc4Ek6CmNFUFPsnyMmNn3erZWUJU09ia"
 YOUTUBE_CHANNEL_ID4 = "playlist/PLpc4Ek6CmNFVoGjvHYuZokghHHtuZZoYL"
 YOUTUBE_CHANNEL_ID5 = "channel/UCMI_PyqvkI4kQhH-bau37wg"
@@ -80,7 +80,7 @@ plugintools.add_item(
 		folder = True )
 		
 plugintools.add_item(
-		title = "DVDS MEU SERTANEJO",
+		title = "PORTAL SERTANEJANDO",
 		url = "plugin://plugin.video.youtube/"+YOUTUBE_CHANNEL_ID2+"/",
 		thumbnail = icon3,
 		folder = True )
