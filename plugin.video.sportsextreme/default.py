@@ -65,7 +65,7 @@ def run():
 	params = plugintools.get_params()
 	
 	if params.get("action") is None:
-		xbmc.Player(xbmc.PLAYER_CORE_AUTO).play(entryurl)
+		xbmc.Player().play(entryurl)
 		
 		while xbmc.Player().isPlaying():
 			time.sleep(1)
