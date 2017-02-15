@@ -292,6 +292,39 @@ def get_params():
 				param[splitparams[0].lower()] = splitparams[1]
 	return param
 
+def redecanais(name,url,iconimage):
+    base1 = "http://down.ec.cx/vd/dd/RC/" #http://vd.ec.cx/vd/dd/RC/RCServer04/ondemand/TBBTT05EP01.mp4 - http://down.ec.cx/vd/dd/RC/
+    base ="http://down.ec.cx/vd/dd/RC/"
+    tam = len(url)
+    
+    if url[7] =="t":
+        baseurl = ""+base+""+url[33:tam]+""
+        print(baseurl)
+        PlayUrl(name,baseurl, iconimage)
+   
+
+    if url[7] =="s":
+        baseurl = ""+base+""+url[47:tam]+""
+        print(baseurl)
+        PlayUrl(name,baseurl, iconimage)
+
+    if url[7] =="2":
+        baseurl = ""+base+""+url[24:tam]+""
+        print(baseurl)
+        PlayUrl(name,baseurl, iconimage)
+        
+    if url[0] =="r":
+        baseurl = ""+base+""+url[7:tam]+""
+        print(baseurl)
+        PlayUrl(name,baseurl, iconimage)
+		
+    if url[1] =="d":
+        baseurl = ""+base1+""+url[6:tam]+""
+        print(baseurl)
+        PlayUrl(name,baseurl, iconimage)
+		
+    else:
+       PlayUrl(name,url, iconimage)
 	
 params=get_params()
 url=None
@@ -338,7 +371,7 @@ elif mode == 1:
 elif mode == 2:
 	m3uCategory(url, logos)
 elif mode == 3 or mode == 32:
-	PlayUrl(name, url, iconimage)
+	redecanais(name,url,iconimage)
 elif mode == 20:
 	AddNewList()
 elif mode == 21:

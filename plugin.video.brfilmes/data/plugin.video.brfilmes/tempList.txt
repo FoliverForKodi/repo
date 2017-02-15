@@ -1,7 +1,7 @@
 [
     {
         "url": "https://www.youtube.com/channel/UCdaBr8Xu6Wq_5_XPb7gQ8rA", 
-        "image": "https://lh3.googleusercontent.com/qcAoumUvuRBD-LTfsiFrnqr0g2Okv14YLZjLlrdGbVGLuFjUZ97oU8-pzJgjhfQWc-GDvLZCaw=s1200-no", 
+        "image": "https://cld.pt/dl/download/4b7f5597-8232-4700-b038-55a58151bea3/Roubo.jpg", 
         "name": "FOLIVER"
     }
 ]
