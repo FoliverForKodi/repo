@@ -293,8 +293,8 @@ def get_params():
 	return param
 
 def redecanais(name,url,iconimage):
-    base1 = "http://down.ec.cx/vd/dd/RC/" #http://vd.ec.cx/vd/dd/RC/RCServer04/ondemand/TBBTT05EP01.mp4 - http://down.ec.cx/vd/dd/RC/
-    base ="http://down.ec.cx/vd/dd/RC/"
+    base1 = "http://vd.ec.cx/vd/dd/RC/" #http://vd.ec.cx/vd/dd/RC/RCServer04/ondemand/TBBTT05EP01.mp4 - http://down.ec.cx/vd/dd/RC/
+    base ="http://vd.ec.cx/vd/dd/RC/"
     tam = len(url)
     
     if url[7] =="t":
