@@ -49,7 +49,7 @@
   </extension>
 </addon>
 
-<addon id="plugin.video.brfilmes" name="[B][COLOR green]BR[COLOR yellow]FILMES[/B][/COLOR]" version="1.0.4" provider-name="FOLIVER FOR KODI">
+<addon id="plugin.video.brfilmes" name="[B][COLOR green]BR[COLOR yellow]FILMES[/B][/COLOR]" version="1.0.2" provider-name="FOLIVER FOR KODI">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
   </requires>
