@@ -21,7 +21,7 @@ def download(url, dest, null):
 
 		if not 'dp' in globals():
 			dp = xbmcgui.DialogProgress()
-			dp.create("foliver wizard"," Starting Download",' ', ' ')
+			dp.create("foliver builds"," Starting Download",' ', ' ')
 		dp.update(0)
 		urllib.urlretrieve(url,dest,lambda nb, bs, fs, url=url: _pbhook(nb,bs,fs))
 
@@ -30,7 +30,7 @@ def download(url, dest, null):
 	
 		if not 'dp' in globals():
 			dp = xbmcgui.DialogProgress()
-			dp.create("foliver wizard","Starting Download",' ', ' ')
+			dp.create("foliver builds","Starting Download",' ', ' ')
 		dp.update(0)
 		aresdownload().retrieve(url,dest,lambda nb, bs, fs, url=url: _pbhook(nb,bs,fs))
 		

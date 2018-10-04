@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.program.foliver" name="Foliver Builds" version="0.0.1" provider-name="FOLIVER FOR KODI">
+<addon id="plugin.program.foliver" name="Foliver Builds" version="2.0.1" provider-name="Builds">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
   </requires>
   <extension point="xbmc.python.pluginsource" library="default.py">
-        <provides>program executable</provides>
+    <provides>executable</provides>
   </extension>
+  <extension point="xbmc.service" library="startup.py" start="startup" />
   <extension point="xbmc.addon.metadata">
-		<summary lang="en">Welcome to Foliver Builds</summary>
-		<description lang="en">This Software is designed to keep your KODI device up to date and running smoothly</description>
-		<disclaimer lang="en">For help and support go to facebook group kodi foliver build</disclaimer>
-		<platform>all</platform>
-	</extension>
+    <summary lang="en">Foliver Builds</summary>
+    <description lang="en">Novas Builds da Foliver for Kodi.</description>
+    <platform>all</platform>
+  </extension>
 </addon>
