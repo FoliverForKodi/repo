@@ -1,11 +1,5 @@
 [
     {
-        "url": "http://pastebin.com/raw/qmdfmcED", 
-        "logos": "", 
-        "image": "special://home/addons/plugin.video.adultsonly/capas/bra.jpg", 
-        "name": "Brasileirinhas"
-    }, 
-    {
         "url": "http://pastebin.com/raw/mQPw4u3x", 
         "logos": "", 
         "image": "special://home/addons/plugin.video.adultsonly/capas/full.jpg", 
