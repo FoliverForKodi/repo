@@ -49,7 +49,7 @@
   </extension>
 </addon>
 
-<addon id="plugin.video.musicbrazuka" version="1.0.1" name="[B][COLOR green]ROCK/POP/REGGAE/MPB[/B][/COLOR]" provider-name="FOLIVER FOR KODI">
+<addon id="plugin.video.musicbrazuka" version="1.0.2" name="[B][COLOR green]MUSIC [COLOR yellow]BRAZUKA[/B][/COLOR]" provider-name="FOLIVER FOR KODI">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
     <import addon="script.module.addon.common" version="2.0.0"/>
@@ -61,8 +61,8 @@
   </extension>
 
   <extension point="xbmc.addon.metadata">
-    <summary lang="en">Rock Pop Reggae MPB Brazuka</summary>
-    <description lang="en">Esse addon contem videos de Rock, Pop, Reggae E MPB Brasileiros ! ! </description>
+    <summary lang="en">MUSIC BRAZUKA</summary>
+    <description lang="en">Esse addon contem shows e clipes de Rock, Pop, Reggae E MPB Brasileiros ! ! </description>
     <platform>all</platform>
     <forum></forum>
     <website></website>

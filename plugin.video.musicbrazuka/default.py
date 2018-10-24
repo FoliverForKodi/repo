@@ -18,39 +18,27 @@ addon = Addon(addonID, sys.argv)
 local = xbmcaddon.Addon(id=addonID)
 #icon = local.getAddonInfo('icon')
 icon = local.getAddonInfo('icon')
-icon2 = "special://home/addons/plugin.video.musicbrazuka/Capas/shows.jpg"
-icon3 = "special://home/addons/plugin.video.musicbrazuka/Capas/melhores.jpg"
-icon4 = "special://home/addons/plugin.video.musicbrazuka/Capas/videos.jpg"
-icon5 = "special://home/addons/plugin.video.musicbrazuka/Capas/top.jpg"
-icon6 = "special://home/addons/plugin.video.musicbrazuka/Capas/anos.jpg"
-icon7 = "special://home/addons/plugin.video.musicbrazuka/Capas/classico.jpg"
-icon8 = "special://home/addons/plugin.video.musicbrazuka/Capas/toppop.jpg"
-icon9 = "special://home/addons/plugin.video.musicbrazuka/Capas/pop.jpg"
-icon10 = "special://home/addons/plugin.video.musicbrazuka/Capas/lancpop.jpg"
-icon11 = "special://home/addons/plugin.video.musicbrazuka/Capas/tbr.jpg"
-icon12 = "special://home/addons/plugin.video.musicbrazuka/Capas/tr.jpg"
-icon13 = "special://home/addons/plugin.video.musicbrazuka/Capas/cr.jpg"
-icon14 = "special://home/addons/plugin.video.musicbrazuka/Capas/mm.jpg"
-icon15 = "special://home/addons/plugin.video.musicbrazuka/Capas/mt.jpg"
-icon16 = "special://home/addons/plugin.video.musicbrazuka/Capas/cm.jpg"
+icon2 = "https://cld.pt/dl/download/ec393cac-fc13-444f-b74d-5c946d616fb4/ROCKSHOWS.jpg?download=true"
+icon3 = "https://cld.pt/dl/download/7dc89445-f3a6-47a2-ada9-e2a1487037ce/REGGAESHOWS.jpg?download=true"
+icon4 = "https://cld.pt/dl/download/5c94fa07-d5e9-4f09-8208-195155600c5a/POPSHOWS.jpg?download=true"
+icon5 = "https://cld.pt/dl/download/d755742d-03ef-4912-87c2-63a2abf4831f/MPBSHOWS.jpg?download=true"
+icon6 = "https://cld.pt/dl/download/12c69723-084a-49dc-8435-a1b7ac70d55c/ROCKCLIPES.jpg?download=true"
+icon7 = "https://cld.pt/dl/download/427b27cd-03e3-42a1-8a28-12c6c97cca91/REGGAECLIPES.jpg?download=true"
+icon8 = "https://cld.pt/dl/download/30a041dc-c942-4d67-8a35-e1456c0d227d/POPCLIPES.jpg?download=true"
+icon9 = "https://cld.pt/dl/download/65d25019-5745-4b99-aa18-e7caf9a75df1/MPBCLIPES.jpg?download=true"
+
 addonfolder = local.getAddonInfo('path')
 resfolder = addonfolder + '/resources/'
 entryurl=resfolder+"entrada.mp4"
-YOUTUBE_CHANNEL_ID = "playlist/PLcsMX-TwGym6iK1EgOkl6q8cR1VVFRkKy"
-YOUTUBE_CHANNEL_ID2 = "playlist/PL_Q15fKxrBb5hIXum_6kk5vUiPxqFJaH8"
-YOUTUBE_CHANNEL_ID3 = "playlist/PLrAwPW0DD1gIVYye-sObT1m-QWJlr7rIM"
-YOUTUBE_CHANNEL_ID4 = "playlist/PLB8HqqmpyIBfdUtpzHax1jLmMLKRHcgF1"
-YOUTUBE_CHANNEL_ID5 = "playlist/PLdQ4n6NTvkjHPU078MgYl3m48cvlap0fi"
-YOUTUBE_CHANNEL_ID6 = "playlist/PLPcFC8viD-2O5eY1GZvmpHJHg9J4e4ClV"
-YOUTUBE_CHANNEL_ID7 = "playlist/PL_Q15fKxrBb70cuYuG1e8197zcXOTX5rQ"
-YOUTUBE_CHANNEL_ID8 = "playlist/PLB8HqqmpyIBdiRK9o_Xv4Yfr8BJeHxrHB"
-YOUTUBE_CHANNEL_ID9 = "playlist/PLOvc47UgH6TCA-HqSitq7-w5bgn5CkhQ0"
-YOUTUBE_CHANNEL_ID10 = "playlist/PL2MNAymGX6Du_z617o0ko7Trr9MRCtYg0"
-YOUTUBE_CHANNEL_ID11 = "playlist/PLB8HqqmpyIBcAHYt_w15AprSLViIGrToO"
-YOUTUBE_CHANNEL_ID12 = "playlist/PLdiTb55wBMHx2en0ShdG1QOCMwXFh17gm"
-YOUTUBE_CHANNEL_ID13 = "playlist/PL_Q15fKxrBb7C163SjzBIPYMrGcNzb_-X"
-YOUTUBE_CHANNEL_ID14 = "playlist/PLrw2gN9GMRh6ZujUOLekfxDRNrelnTkbI"
-YOUTUBE_CHANNEL_ID15 = "playlist/PLhdSBdMvN6_SJ7kqH1F820oJFrRFfVLZ2"
+YOUTUBE_CHANNEL_ID = "playlist/PLNtZ1Pn1y2b5vj5YXmTERxBySUBgmBMe6"
+YOUTUBE_CHANNEL_ID2 = "playlist/PLNtZ1Pn1y2b4jZanoQrvNpt3Fk0zfuWsD"
+YOUTUBE_CHANNEL_ID3 = "playlist/PLNtZ1Pn1y2b7eLcsSRG9vmigxB3H7WYD5"
+YOUTUBE_CHANNEL_ID4 = "playlist/PLNtZ1Pn1y2b4UhF8bEYpsjpN6EDqbjenU"
+YOUTUBE_CHANNEL_ID5 = "playlist/PLNtZ1Pn1y2b6kznAfiEDzi7spHhtgS0B0"
+YOUTUBE_CHANNEL_ID6 = "playlist/PLNtZ1Pn1y2b5AY2QZJrNf77_gsz95vCTE"
+YOUTUBE_CHANNEL_ID7 = "playlist/PLNtZ1Pn1y2b59gJLFyKYnx2rR6DjL2mpA"
+YOUTUBE_CHANNEL_ID8 = "playlist/PLNtZ1Pn1y2b6lZXDp9JGu9UUZi8Ay106d"
+
 
 
 # Ponto de Entrada
@@ -80,93 +68,50 @@ def main_list(params):
 	#plugintools.direct_play(str(entryurl))
 
 plugintools.add_item(
-		title = "SHOWS COMPLETOS",
+		title = "[B][COLOR yellow]ROCK [COLOR green]SHOWS COMPLETOS[/COLOR][/B]",
 		url = "plugin://plugin.video.youtube/"+YOUTUBE_CHANNEL_ID+"/",
 		thumbnail = icon2,
 		folder = True )
 		
 plugintools.add_item(
-		title = "MELHORES ROCK NACIONAL",
+		title = "[B][COLOR yellow]REGGAE [COLOR green]SHOWS COMPLETOS[/COLOR][/B]",
 		url = "plugin://plugin.video.youtube/"+YOUTUBE_CHANNEL_ID2+"/",
 		thumbnail = icon3,
 		folder = True )
 
 plugintools.add_item(
-		title = "POP ROCK, ROCK NACIONAL e REGGAE ",
+		title = "[B][COLOR yellow]POP [COLOR green]SHOWS COMPLETOS[/COLOR][/B] ",
 		url = "plugin://plugin.video.youtube/"+YOUTUBE_CHANNEL_ID3+"/",
 		thumbnail = icon4,
 		folder = True )		
 
 plugintools.add_item(
-		title = "TOP ROCK NACIONAL",
+		title = "[B][COLOR yellow]MPB [COLOR green]SHOWS COMPLETOS[/COLOR][/B]",
 		url = "plugin://plugin.video.youtube/"+YOUTUBE_CHANNEL_ID4+"/",
 		thumbnail = icon5,
 		folder = True )		
 
 plugintools.add_item(
-		title = "ROCK ANOS 80,90 E 2000",
+		title = "[B][COLOR yellow]ROCK [COLOR green]CLIPES[/COLOR][/B]",
 		url = "plugin://plugin.video.youtube/"+YOUTUBE_CHANNEL_ID5+"/",
 		thumbnail = icon6,
 		folder = True )		
 		
 plugintools.add_item(
-		title = "ROCK NACIONAL CLASSICO",
+		title = "[B][COLOR yellow]REGGAE [COLOR green]CLIPES[/COLOR][/B]",
 		url = "plugin://plugin.video.youtube/"+YOUTUBE_CHANNEL_ID6+"/",
 		thumbnail = icon7,
 		folder = True )	
 		
-		
 plugintools.add_item(
-		title = "TOP 100 POP",
+		title = "[B][COLOR yellow]POP [COLOR green]CLIPES[/COLOR][/B]",
 		url = "plugin://plugin.video.youtube/"+YOUTUBE_CHANNEL_ID7+"/",
 		thumbnail = icon8,
-		folder = True )	
-		
-plugintools.add_item(
-		title = "POP NACIONAL",
-		url = "plugin://plugin.video.youtube/"+YOUTUBE_CHANNEL_ID8+"/",
-		thumbnail = icon9,
-		folder = True )	
-		
-plugintools.add_item(
-		title = "LANCAMENTO POP",
-		url = "plugin://plugin.video.youtube/"+YOUTUBE_CHANNEL_ID9+"/",
-		thumbnail = icon10,
 		folder = True )			
 		
 plugintools.add_item(
-		title = "THE BEST REGGAE",
-		url = "plugin://plugin.video.youtube/"+YOUTUBE_CHANNEL_ID10+"/",
-		thumbnail = icon11,
-		folder = True )		
-
-plugintools.add_item(
-		title = "TOP REGGAE",
-		url = "plugin://plugin.video.youtube/"+YOUTUBE_CHANNEL_ID11+"/",
-		thumbnail = icon12,
-		folder = True )		
-
-plugintools.add_item(
-		title = "COLETÂNEA REGGAE",
-		url = "plugin://plugin.video.youtube/"+YOUTUBE_CHANNEL_ID12+"/",
-		thumbnail = icon13,
-		folder = True )		
-
-plugintools.add_item(
-		title = "MELHORES MPB",
-		url = "plugin://plugin.video.youtube/"+YOUTUBE_CHANNEL_ID13+"/",
-		thumbnail = icon14,
-		folder = True )		
-
-plugintools.add_item(
-		title = "TOP MPB",
-		url = "plugin://plugin.video.youtube/"+YOUTUBE_CHANNEL_ID14+"/",
-		thumbnail = icon15,
-		folder = True )		
-
-plugintools.add_item(
-		title = "COLETÂNEA MPB",
-		url = "plugin://plugin.video.youtube/"+YOUTUBE_CHANNEL_ID15+"/",
-		thumbnail = icon16,
-		folder = True )				
+		title = "[B][COLOR yellow]MPB [COLOR green]CLIPES[/COLOR][/B]",
+		url = "plugin://plugin.video.youtube/"+YOUTUBE_CHANNEL_ID8+"/",
+		thumbnail = icon9,
+		folder = True )			
 run()
