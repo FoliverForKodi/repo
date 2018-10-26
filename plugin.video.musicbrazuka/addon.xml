@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.video.musicbrazuka" version="1.0.2" name="[B][COLOR green]MUSIC [COLOR yellow]BRAZUKA[/B][/COLOR]" provider-name="FOLIVER FOR KODI">
+<addon id="plugin.video.musicbrazuka" version="1.0.3" name="[B][COLOR green]MUSIC [COLOR yellow]BRAZUKA[/B][/COLOR]" provider-name="FOLIVER FOR KODI">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
     <import addon="script.module.addon.common" version="2.0.0"/>
@@ -12,7 +12,7 @@
 	
   <extension point="xbmc.addon.metadata">
     <summary lang="en">MUSIC BRAZUKA</summary>
-    <description lang="en">Esse addon contem shows e clipes de Rock, Pop, Reggae E MPB Brasileiros ! ! </description>
+    <description lang="en">Esse addon contem shows e clipes de Rock, Pop, Reggae, MPB, Samba, Pagode e Axe Brasileiros ! ! </description>
     <platform>all</platform>
     <forum></forum>
     <website></website>

@@ -26,7 +26,12 @@ icon6 = "https://cld.pt/dl/download/12c69723-084a-49dc-8435-a1b7ac70d55c/ROCKCLI
 icon7 = "https://cld.pt/dl/download/427b27cd-03e3-42a1-8a28-12c6c97cca91/REGGAECLIPES.jpg?download=true"
 icon8 = "https://cld.pt/dl/download/30a041dc-c942-4d67-8a35-e1456c0d227d/POPCLIPES.jpg?download=true"
 icon9 = "https://cld.pt/dl/download/65d25019-5745-4b99-aa18-e7caf9a75df1/MPBCLIPES.jpg?download=true"
-
+icon10 = "https://cld.pt/dl/download/60a0c574-1ee9-486b-8be4-d86ad8550ff9/SAMBASHOWS.jpg?download=true"
+icon11 = "https://cld.pt/dl/download/f7b83221-dcbc-4616-972c-e69515962531/PAGODESHOWS.jpg?download=true"
+icon12 = "https://cld.pt/dl/download/c58aaa94-2e4b-43a4-98a7-168286c183ec/SAMBACLIPES.jpg?download=true"
+icon13 = "https://cld.pt/dl/download/588aa96c-4657-4123-b202-2e65605e822f/PAGODECLIPES.jpg?download=true"
+icon14 = "https://cld.pt/dl/download/2f13aef2-89a1-42b5-bb84-8a54551eeec6/AXESHOWS.jpg?download=true"
+icon15 = "https://cld.pt/dl/download/b1e7d9a2-1a2e-4cba-947e-7be24f16b738/AXECLIPES.jpg?download=true"
 addonfolder = local.getAddonInfo('path')
 resfolder = addonfolder + '/resources/'
 entryurl=resfolder+"entrada.mp4"
@@ -38,7 +43,12 @@ YOUTUBE_CHANNEL_ID5 = "playlist/PLNtZ1Pn1y2b6kznAfiEDzi7spHhtgS0B0"
 YOUTUBE_CHANNEL_ID6 = "playlist/PLNtZ1Pn1y2b5AY2QZJrNf77_gsz95vCTE"
 YOUTUBE_CHANNEL_ID7 = "playlist/PLNtZ1Pn1y2b59gJLFyKYnx2rR6DjL2mpA"
 YOUTUBE_CHANNEL_ID8 = "playlist/PLNtZ1Pn1y2b6lZXDp9JGu9UUZi8Ay106d"
-
+YOUTUBE_CHANNEL_ID9 = "playlist/PLNtZ1Pn1y2b41Mp2LQTddWZLFJbBtSLfA"
+YOUTUBE_CHANNEL_ID10 = "playlist/PLNtZ1Pn1y2b4bCoBz0Q99Y0u4308v7jP7"
+YOUTUBE_CHANNEL_ID11 = "playlist/PLNtZ1Pn1y2b78ykVsGGsUPf69mDscyOcb"
+YOUTUBE_CHANNEL_ID12 = "playlist/PLNtZ1Pn1y2b5skTe6wGuJrgBTx1qAwSll"
+YOUTUBE_CHANNEL_ID13 = "playlist/PLNtZ1Pn1y2b5f2zKOiwx0HKAEWM0_623h"
+YOUTUBE_CHANNEL_ID14 = "playlist/PLNtZ1Pn1y2b5TDWVTRIR5PToZSKqORmMJ"
 
 
 # Ponto de Entrada
@@ -92,6 +102,25 @@ plugintools.add_item(
 		folder = True )		
 
 plugintools.add_item(
+		title = "[B][COLOR yellow]SAMBA [COLOR green]SHOWS COMPLETOS[/COLOR][/B]",
+		url = "plugin://plugin.video.youtube/"+YOUTUBE_CHANNEL_ID9+"/",
+		thumbnail = icon10,
+		folder = True )			
+
+plugintools.add_item(
+		title = "[B][COLOR yellow]PAGODE [COLOR green]SHOWS COMPLETOS[/COLOR][/B]",
+		url = "plugin://plugin.video.youtube/"+YOUTUBE_CHANNEL_ID10+"/",
+		thumbnail = icon11,
+		folder = True )		
+
+plugintools.add_item(
+		title = "[B][COLOR yellow]AXE [COLOR green]SHOWS COMPLETOS[/COLOR][/B]",
+		url = "plugin://plugin.video.youtube/"+YOUTUBE_CHANNEL_ID13+"/",
+		thumbnail = icon14,
+		folder = True )	
+		
+		
+plugintools.add_item(
 		title = "[B][COLOR yellow]ROCK [COLOR green]CLIPES[/COLOR][/B]",
 		url = "plugin://plugin.video.youtube/"+YOUTUBE_CHANNEL_ID5+"/",
 		thumbnail = icon6,
@@ -113,5 +142,23 @@ plugintools.add_item(
 		title = "[B][COLOR yellow]MPB [COLOR green]CLIPES[/COLOR][/B]",
 		url = "plugin://plugin.video.youtube/"+YOUTUBE_CHANNEL_ID8+"/",
 		thumbnail = icon9,
+		folder = True )			
+			
+plugintools.add_item(
+		title = "[B][COLOR yellow]SAMBA [COLOR green]CLIPES[/COLOR][/B]",
+		url = "plugin://plugin.video.youtube/"+YOUTUBE_CHANNEL_ID11+"/",
+		thumbnail = icon12,
+		folder = True )			
+
+plugintools.add_item(
+		title = "[B][COLOR yellow]PAGODE [COLOR green]CLIPES[/COLOR][/B]",
+		url = "plugin://plugin.video.youtube/"+YOUTUBE_CHANNEL_ID12+"/",
+		thumbnail = icon13,
+		folder = True )	
+
+plugintools.add_item(
+		title = "[B][COLOR yellow]AXE [COLOR green]CLIPES[/COLOR][/B]",
+		url = "plugin://plugin.video.youtube/"+YOUTUBE_CHANNEL_ID14+"/",
+		thumbnail = icon15,
 		folder = True )			
 run()
